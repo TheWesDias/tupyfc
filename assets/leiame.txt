@@ -1,0 +1,7 @@
+Novo Layout - 18/10/14
+
+Fontesutilizadas no projeto TUPY
+ -FRUTIGER … - Fonteutilizada no topo do layout – TUPY…;
+ -LHANDW (Lucida Handwriting) – Fonteutilizada no sub-título e banner;
+
+A fontes utilizadas nos títulos em duas cores(AtividadesTupy, TupyAgenda...) e no menu foram substituidas para Verdana BOLD.

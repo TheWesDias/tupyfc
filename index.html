@@ -21,9 +21,40 @@
 	}
 	
 	#comunicacao
+	{		
+		background-color:rgba(255,255,255,0.2);
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top:6px;
+		padding-bottom:6px;
+		float:right;			
+		border-bottom-right-radius:10px;
+		border-bottom-left-radius:10px;		
+	}
+	
+	#conteudo_comunicacao
 	{
-		color:#FFF;
-		float:right;
+		vertical-align: middle;
+	}
+	
+	#comunicacao a
+	{		
+		font-family: "Verdana", Times, serif;		
+		font-size: 11px;		
+		color: #FFF;
+		text-decoration: none;
+	}
+	
+	.comunicacao_item
+	{
+		padding-left: 7px;		
+	}
+	
+	#divisao_comunic
+	{
+		padding-left: 11px;
+		padding-right: 11px;
+		vertical-align: middle;
 	}
 	
 	#container_topo
@@ -54,11 +85,11 @@
 	
 	#menu{ }
 		
-	#menu> ul{height:60px;}
+	#menu > ul{height:60px;}
 	
-	#menu>ul{vertical-align: middle;}
+	#menu > ul{vertical-align: middle;}
 		
-	#menu, a
+	#menu a
 	{
 		font-family: "Verdana", Times, serif;
 		font-style: italic;
@@ -89,11 +120,32 @@
 		padding-bottom:5px;
 	}
 	
-	#tupy_nosso
+	#img_slide
 	{
-		position:absolute; 
-		/*top:110px; 
-		left:6px;*/		
+		background-image: url(assets/img/campo_2.jpg);
+		height:278px;
+		width:940px;
+		margin:0 auto;
+		position: relative
+	}
+	
+	#tupy_nosso
+	{		
+		position: absolute; 		
+		bottom: 0;		
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-color:#000;
+		border-top: solid 5px #FFF;
+		border-top-left-radius: 500px 100%;
+		border-top-right-radius: 500px 100%;		
+		height:35px;		
+	}
+	
+	#tupy_nosso_item
+	{
+		
 	}
 	
 	#retangulo_centro
@@ -192,8 +244,11 @@
 		<div id="logo">
 			<a href="#"><img src="assets/img/logo.png" /></a>
 			<div id="comunicacao">
-				<a href="#"><img src="assets/img/balao.png"/> Fale Conosco</a>
-				<a href="#"><img src="assets/img/twitter.png"/>	Twitter</a>
+				<span id="conteudo_comunicacao">
+					<a href="#"><img src="assets/img/balao.png"/><span class="comunicacao_item">Fale Conosco</span></a>
+					<img src="assets/img/divisao_comunic.png" id="divisao_comunic"/>
+					<a href="#"><img src="assets/img/twitter.png"/><span class="comunicacao_item">Faça Parte</span></a>
+				</span>
 			</div>
 		</div>
 	</div>
@@ -226,10 +281,11 @@
 		</ul>
 	</div>
 	<div id="slide">
-		<img src="assets/img/campo_2.jpg" class="img_slide" />
-		<div id="tupy_nosso">
-			<img src="assets/img/tupy_nosso.png" />
-		</div>
+		<div id="img_slide">
+			<div id="tupy_nosso">
+				<img src="assets/img/tupy_nosso.png" id="tupy_nosso_item" />
+			</div>
+		</div>		
 	</div>
 	<div id="retangulo_centro">		
 		<div class="conteudo_retangulo">

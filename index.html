@@ -23,7 +23,6 @@
 	{ 	background: #222222;
 		width: 100%;
 		height: 170px;
-		position: absolute;
 	}
 	
 	#comunicacao
@@ -82,7 +81,7 @@
 		margin: 0 auto;
 		text-align:center;
 		position:relative;
-		top:120px;
+		top:-60px;
 		border-left: 10px solid rgba(198, 197, 197, 0.3);		
 		border-top: 10px solid rgba(198, 197, 197, 0.3);
 		border-right: 10px solid rgba(198, 197, 197, 0.3);
@@ -123,7 +122,7 @@
 	
 	#slide
 	{
-		padding-bottom:5px;
+		margin-bottom:5px;
 	}
 	
 	#img_slide
@@ -144,9 +143,11 @@
 		margin: auto;
 		background-color:#000;
 		border-top: solid 5px #FFF;
+		border-left: solid 5px #FFF;
+		border-right: solid 5px #FFF;		
 		border-top-left-radius: 500px 100%;
 		border-top-right-radius: 500px 100%;		
-		height:35px;		
+		height:35px;
 	}
 	
 	#tupy_nosso_item
@@ -159,8 +160,8 @@
 		margin: 0 auto;
 		height:120px;
 		background-color:#01824A;
-		width:940px;	
-		padding-bottom:5px;		
+		width:940px;
+		margin-bottom: 5px;
 	}
 	
 	.conteudo_retangulo
@@ -168,13 +169,14 @@
 		display: block;
 		float: left;		
 		padding-top: 10px;
+		height:100%;
 	}
 	
 	.conteudo_retangulo:hover
 	{
 		background-image: url(assets/img/fundo_radial_verde.png);
 		background-repeat: no-repeat;
-		background-position: center;		
+		background-position: center;
 	}
 	
 	.conteudo_retangulo_centro
@@ -241,14 +243,130 @@
 	.container_colunas
 	{
 		margin: 0 auto;
-		height:120px;
-		background-color:#01824A;
+		background-color:#FFF;
 		width:940px;
+		height:416px;
+		padding-top:5px;
+	}
+	
+	.colunas-conteudo
+	{		
+		width:300px;
+		height:400px;
+		float:left;
+		background-image: linear-gradient(to bottom, #FFF, #EFEFEF);		
+		outline: #EFEFEF solid thin;		
+		
+	}
+	
+	.conteudo-centralizado
+	{	
+		height:100%;
+		width:100%;
+	}
+	
+	.colunas-conteudo-centro
+	{
+		margin: 0px 20px;
+	}
+	
+	.colunas-conteudo h1
+	{
+		font-size:20px;
+		color: #000;
+		text-align:left;
+		padding-left:15px;
+		padding-top: 12px;
+	}
+	
+	.colunas-conteudo > h1
+	{
+		padding-bottom:15px;
+	}
+	
+	
+	.colunas-conteudo h2
+	{
+		color:#000;
+		text-align: left;
+		width:248px;
+		padding-left:14px;		
+	}
+	
+	.colunas-conteudo h2 p
+	{
+		padding-top: 15px;
+	}
+	
+	.colunas-conteudo h1 span
+	{
+		color:#00814A;
+	}
+	
+	.item-parceiro
+	{
+		height:92px;
+		width:280px;		
+		margin: 0 auto;
+		margin-top: 15px;
+		padding-top:5px;
+		background-image: url(assets/img/fundo_riscado.png);		
+		background-repeat: no-repeat;		
+	}
+	
+	#parceiro
+	{
+		
+	}
+	
+	#galeria-multimidia
+	{
+	
+	}
+	
+	#agenda
+	{
+		margin-top:0px;
+	}
+	
+	.item-parceiro img
+	{
+		float:left;
+	}
+	
+	.item-parceiro h1
+	{
+		font-size:18px;
+		text-align: right;
+		padding-right:15px;
+	}
+	
+	.item-parceiro h1 span
+	{
+		color:#00814A;
+	}
+	
+	.item-parceiro h2
+	{
+		text-align:right;
+	}
+	
+	#jogo
+	{
+		/*position: relative;
+		text-align:center;
+		margin:0px auto;
+		float: left;*/
+		margin-top: 29px;
+		/*height:260px;
+		width:210px;
+		background-image: url(assets/img/ultimo_jogo.png);		
+		background-repeat: no-repeat;*/
 	}
 	
 </style>
 </head>
-<body>
+<body data-twttr-rendered="true" data-feedly-mini="yes">
 <div id="topo">
 	<div id="container_topo">
 		<div id="logo">
@@ -346,7 +464,43 @@
 		</div>		
 	</div>
 	<div class="container_colunas">
-	a
+		<div class="colunas-conteudo">
+			
+			<h1><span>TUPY</span>Novidades</h1>
+			<h2>A nova administração do Tupy busca uma e  vigoração do Clube, com isso traz o planejamento ao publico interessado em participar também desse projeto.
+			<p>A nova administração do Tupy busca uma e  vigoração do Clube, com isso traz o planejamento ao publico interessado em participar também desse projeto.</p></h2>
+			<div class="item-parceiro" id="parceiro">
+				<img src="assets/img/apertando_mao.png"/>
+				<h1><span>Seja</span>Parceiro</h1>
+				<h2>Saiba com ser parceiro do
+				Tupy Sport Clube, participe!</h2>
+			</div>
+			<div class="item-parceiro" id="galeria-multimidia">
+				<img src="assets/img/galeria_multimidia.png"/>
+				<h1><span>Galeria</span>Multimídia</h1>
+				<h2>Confira nossa galeria de vídeos e 
+				fotos, conheça mais nossa vitoriosa historia</h2>			
+			</div>
+		</div>
+		<div class="colunas-conteudo colunas-conteudo-centro">
+				<h1><span>TUPY</span>Agenda</h1>
+				<div class="item-parceiro" id="agenda">
+					<img src="assets/img/agenda.png"/>
+					<h1><span>Visualizar</span>Agenda</h1>
+					<h2>Saiba sobre os jogos e eventos
+					através de nossa agenda.</h2>
+				</div>			
+				<div id="jogo">	
+					<img src="assets/img/ultimo_jogo.png"/>
+				</div>			
+		</div>
+		<div class="colunas-conteudo">
+			<h1><span>TUPY</span>Notícias</h1>
+			<div id="twitter">
+				<a class="twitter-timeline"  height="349" href="https://twitter.com/SportClubTupy" data-widget-id="530067188246257664">Tweets de @SportClubTupy</a>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</div>
 	</div>
 </div>
 

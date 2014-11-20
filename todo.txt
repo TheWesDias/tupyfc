@@ -1,0 +1,14 @@
+﻿email do twitter: tupy.fc.paracambi@gmail.com
+
+	Implementar
+Fale Conosco do Topo
+Twitter Faça Parte  do Topo
+Menu: O Clube, Projetos, Atividades, Escolinhas, Multimídia, Parceiros
+Slide da imagem da Home
+AtividadesTUPY apontar para o mesmo link do item Atividades do menu
+NovoTUPY apontar para o mesmo link do item Projetos do menu
+EscolinhaTUPY apontar para o mesmo link do item Escolinhas
+TUPYAgenda apontar para a agenda
+SejaParceiro apontar para Página explicando como virar um parceiro
+GaleriaMultimídia apontar para o mesmo link do item Multimídia do Menu
+Alinhar verticalmente as imagens do rodapé

@@ -36,7 +36,7 @@
 
 /* Caption styles */
 
-div.mc-caption-bg, div.mc-caption-bg2 { /*display:none;*/}
+div.mc-caption-bg, div.mc-caption-bg2 { display:none;}
 
 /*
 #slider div.mc-caption-bg, #slider div.mc-caption-bg2 {

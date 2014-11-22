@@ -4,7 +4,6 @@
 Fale Conosco do Topo
 Twitter Faça Parte  do Topo
 Menu: O Clube, Projetos, Atividades, Escolinhas, Multimídia, Parceiros
-Slide da imagem da Home
 AtividadesTUPY apontar para o mesmo link do item Atividades do menu
 NovoTUPY apontar para o mesmo link do item Projetos do menu
 EscolinhaTUPY apontar para o mesmo link do item Escolinhas

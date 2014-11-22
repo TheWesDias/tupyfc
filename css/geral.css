@@ -121,7 +121,7 @@
 	
 	#img_slide
 	{
-		background-image: url(assets/img/campo_2.jpg);
+		background-image: url(../assets/img/campo_2.jpg);
 		height:278px;
 		width:940px;
 		margin:0 auto;
@@ -168,7 +168,7 @@
 	
 	.conteudo_retangulo:hover
 	{
-		background-image: url(assets/img/fundo_radial_verde.png);
+		background-image: url(../assets/img/fundo_radial_verde.png);
 		background-repeat: no-repeat;
 		background-position: center;
 	}
@@ -250,16 +250,21 @@
 		background-color:#FFF;
 		width:940px;
 		height:416px;
-		padding-top:5px;
+		display:table;
 	}
 	
 	.colunas-conteudo
 	{		
 		width:300px;
-		height:400px;
+		min-height:400px;
 		float:left;
 		background-image: linear-gradient(to bottom, #FFF, #EFEFEF);		
 		outline: #EFEFEF solid thin;		
+	}
+	
+	.colunas-conteudo-maior
+	{
+		width:620px;
 	}
 	
 	.conteudo-centralizado
@@ -317,7 +322,7 @@
 		margin: 0 auto;
 		margin-top: 15px;
 		padding-top:5px;
-		background-image: url(assets/img/fundo_riscado.png);		
+		background-image: url(../assets/img/fundo_riscado.png);		
 		background-repeat: no-repeat;		
 	}
 	

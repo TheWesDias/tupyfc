@@ -1,4 +1,4 @@
-*
+	*
 	{
 		margin: 0;
 		padding: 0;
@@ -10,10 +10,15 @@
 		text-decoration:none;
 	}
 	
-	body
+	
+	body, html
 	{
-		background-image: linear-gradient(to bottom, #C4C4C4, #F0F0F0);
+		
+		background-image: linear-gradient(to bottom, #C4C4C4, #F0F0F0);		
+		min-height:100%;
 	}
+	
+	html,body{}
 	
 	#topo	
 	{ 	background: #222222;
@@ -263,6 +268,28 @@
 		outline: #EFEFEF solid thin;		
 	}
 	
+	.colunas-conteudo form 
+	{text-align:left; vertical-align:top;}
+	
+	.colunas-conteudo form label
+	{
+		padding-left:10px;
+		padding-right:10px;
+		padding-bottom:10px;		
+		font-family: "Verdana", Times, serif;
+		font-size: 16px;	
+		font-style: normal;
+		font-weight: normal;	
+	}
+	
+	.colunas-conteudo form input{width:50%;}
+	
+	.colunas-conteudo form input, .colunas-conteudo form textarea
+	{
+		margin-bottom: 10px;
+		margin-left:10px;
+	}
+	
 	.colunas-conteudo-maior
 	{
 		width:620px;
@@ -378,21 +405,53 @@
 		background-repeat: no-repeat;*/
 	}
 	
-	#container-rodape
+	#container-imagens
+	{
+		width:940px;
+		height:72px;
+		margin: 0 auto;
+		padding-top: 16px;
+	}
+	
+	.container-rodape
 	{
 		height:72px;
-		width:940px;
-		border: 1px solid #EFEFEF;
-		margin: 0 auto;
+		width:467px;
+		/*max-width:50%;*/
+		/*left:0;*/
+		border: 1px solid #EFEFEF;		
 		margin-bottom: 22px;
+		float:left;
+		/*display:inline;*/
 	}
+	
+	.container-rodape h1
+	{
+		font-family: "Verdana", Times, serif;
+		font-size: 11px;	
+		color:#000;
+		text-align: left;
+		font-style: normal;
+		font-weight: bold;
+		margin-left:12px;
+		margin-top:-8px;
+		background-color:#FFF;
+		display:table;		
+	}
+	
+	.container-rodape h1 span
+	{
+		color:#00804A;
+	}	
 	
 	.img-rodape
 	{
-		float: left;
-		padding-right: 15px;
-		padding-top: 8px;
-		padding-left: 16px;
+		padding-right: 12px;
+		padding-left: 12px;
+		top: 0; 
+		bottom: 0;
+		left:0;
+		
 	}
 	
 	#rodape
@@ -432,4 +491,23 @@
 		background-color:#8EBD00;
 		padding: 2px 4px;
 		margin-right:12px;
+	}
+	
+	.mask-border
+	{		
+		margin-right:-1px;
+		height:10px;
+		width: 3px;
+		background-color:#fff;
+		float:left;
+	}
+
+	#mask-border-top {
+		top:-1px;
+		margin-top:0px;
+	}
+
+	#mask-border-bottom 
+	{    
+		bottom:0px;
 	}
